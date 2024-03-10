@@ -33,8 +33,10 @@ These tools are essential for the script to function correctly. Please refer to 
 The script will iterate through each directory under baseDir, looking for roots.txt files to process. Results will be saved in resolveddomains.txt and webservers.txt within each program's directory.
 
 ## Output
+```
 resolveddomains.txt: Contains all live domains found during the recon process.
 webservers.txt: Lists webservers and their respective ports that did not return a 404 or 403 status code.
+```
 
 ## Notifications
 Notifications are sent through the notify tool for both the completion of recon for each program and new subdomain discoveries. Ensure notify is correctly configured to receive these alerts.
